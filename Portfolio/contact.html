@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=VT323&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(18, 18, 85);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            color: white;
+            margin: 0 23px;
+            font: 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(120, 120, 190);
+            font-size: 1.02rem;
+        }
+
+        .left img {
+            width: 50%;
+            margin: 50px 20px;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstSection div {
+            width: 30%;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 30px;
+            justify-content: center;
+            text-align: left;
+        }
+
+        p {
+            justify-content: center;
+        }
+        .iconlogo{
+            width: 40px;
+            position: relative;
+        }
+        .iconlogo :hover{
+            width: 55px;
+        }
+        .copyrights{
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="download.png">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <h1>My contact details</h1>
+            <ul>
+                <li>Email id : <a href="ghorpaderajwardhan00@gmail.com">ghorpaderajwardhan00@gmail.com</a></li>
+                <li>Mobile no : 9359680725</li>
+            </ul>
+        </section>
+        <hr>
+
+    </main>
+    <footer class="fourthSection">
+        <h1 class="h1centre" >Follow me on</h1>
+        <nav>
+            <div class="box">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/rajwardhan-ghorpade571/"><img class="iconlogo" src="linkdin.png" alt=""></a></li>
+                    <li><a href="/"><img class="iconlogo" src="GitHub.png" alt=""></a></li>
+                    <li><a href="https://www.instagram.com/beingraj571/?hl=cs"><img class="iconlogo" src="instagram.png" alt=""></a></li>
+                    <li><a href="/"><img class="iconlogo" src="fb.png" alt=""></a></li>
+                    <li><a href="/"><img class="iconlogo" src="twitter.png" alt=""></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="copyrights">
+            copyright &#169; rajportfolio.com | All rights reserved
+        </div>
+    </footer>
+</body>
+</html>
